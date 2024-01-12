@@ -8,7 +8,7 @@ public class primeFactorization {
 		System.err.println("Enter a Number ");
 		long n = input.nextLong();
 		
-		System.out.println("Prime Factors of "+ n +"Are: ");
+		System.out.println("Prime Factors of "+ n +" Are: ");
 		
 		for(long i = 2; i<n/i; i++) {
 			while( n% i== 0 ) {
