@@ -7,6 +7,10 @@ public class Bicycle {
 	private int speed = 0;
 	private int gear = 1;
 	
+	public Bicycle() {
+		System.out.println("Bicycle Object created");
+	}
+	
 	public void changeCadence(int newvalue) {
 		cadence = newvalue;
 	}
